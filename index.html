@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <title>¡Mundo espiritual!</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Vinculando Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="dropdown">
+        <button class="btn btn-primary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+          Menu
+        </button>
+        <ul class="dropdown-menu">
+          <li><button class="dropdown-item" type="button">Frases motivadoras</button></li>
+          <li><button class="dropdown-item" type="button">Pasos de relajacion</button></li>
+          <li><button class="dropdown-item" type="button">Consejos</button></li>
+        </ul>
+      </div>
+    <ul class="nav nav-pills nav-fill gap-2 p-1 small bg-primary rounded-5 shadow-sm" id="pillNav2" role="tablist" style="--bs-nav-link-color: var(--bs-white); --bs-nav-pills-link-active-color: var(--bs-primary); --bs-nav-pills-link-active-bg: var(--bs-white);">
+        <li class="nav-item" role="presentation">
+          <button class="nav-link active rounded-5" id="home-tab2" data-bs-toggle="tab" type="button" role="tab" aria-selected="true">Inicio</button>
+        </li>
+        <li class="nav-item" role="presentation">
+          <button class="nav-link rounded-5" id="profile-tab2" data-bs-toggle="tab" type="button" role="tab" aria-selected="false">Buscar</button>
+        </li>
+        <li class="nav-item" role="presentation">
+          <button class="nav-link rounded-5" id="contact-tab2" data-bs-toggle="tab" type="button" role="tab" aria-selected="false">
+            <a href="#identificador">
+            Contactar
+        </button>
+        </li>
+      </ul>
+    <h1>¡Bienvenidos al Mundo Zen!</h1>
+    <button class="btn btn-primary">Experiencia Espiritual</button>
+    <button class="btn btn-secondary">Un Mundo diferente</button>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4">Meditación, Relajación</div>
+            <div class="col-md-4">Conexión contigo mismo</div>
+            <div class="col-md-4">Mantener la mente abierta</div>
+        </div>
+    </div>
+    <div style="background-color: coral;text-align: center;padding: 20px;">
+        <div style="border:2px solid aqua;text-align: center;padding:10px;">
+            <img src="images.jfif">
+            <img src="meditacion-chakras.webp" alt="">
+            <img src="como_relajarse_en_5_minutos_25666_paso_5_600.webp" alt="">
+
+
+
+
+            <div style="text-align: center;">
+
+                <h1>Como relajarse en 5 minutos,pasos</h1>
+                <h1>Vida sana,cuerpo,mente y bienestar</h1>
+
+
+            </div>
+        </div>
+
+    </div>
+    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+        Mi modal
+    </button>
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Un Mundo Nuevo</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          Relajate y no te preocupes por cosas que no puedes cambiar
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary">Save changes</button>
+        </div>
+      </div>
+    </div>
+  </div>
+<form id="identificador">
+    
+    <label for="nombre">Nombre:</label>
+    <input class="form-control"id="email"type="text"name="email"/>
+    <label>
+        <input type="checkbox">Recordarme
+    </label>
+    <button class=" btn btn-primary" type="submit">Enviar</button>
+</form>
+
+    <!-- Vinculando Bootstrap JS y Popper.js -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"></script>
+</body>
+
+</html>
